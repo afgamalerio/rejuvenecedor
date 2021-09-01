@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form--img {
+  width: 15rem;
+}
+
+.form--label {
+  text-transform: uppercase;
+  color: indigo;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.form--input {
+  padding: 2px;
+  border: 1px solid pink;
+}
+
+.form--button {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  background-color: turquoise;
+}
